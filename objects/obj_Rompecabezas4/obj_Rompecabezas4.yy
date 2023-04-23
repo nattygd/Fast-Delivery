@@ -1,11 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Jugador",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_CajaRoja","path":"objects/obj_CajaRoja/obj_CajaRoja.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-  ],
+  "name": "obj_Rompecabezas4",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -29,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprRepartidor",
-    "path": "sprites/sprRepartidor/sprRepartidor.yy",
+    "name": "spr_Rompecabezas4",
+    "path": "sprites/spr_Rompecabezas4/spr_Rompecabezas4.yy",
   },
   "spriteMaskId": null,
   "visible": true,
