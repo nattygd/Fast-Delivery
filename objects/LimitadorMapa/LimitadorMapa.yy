@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_CajaAzul",
+  "name": "LimitadorMapa",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,9 +26,9 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "sprCajaAzul",
-    "path": "sprites/sprCajaAzul/sprCajaAzul.yy",
+    "name": "LimitadorMundo",
+    "path": "sprites/LimitadorMundo/LimitadorMundo.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

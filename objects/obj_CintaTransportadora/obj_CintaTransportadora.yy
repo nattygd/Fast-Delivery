@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_CajaAzul",
-  "eventList": [],
+  "name": "obj_CintaTransportadora",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_Rompecabezas","path":"objects/obj_Rompecabezas/obj_Rompecabezas.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,8 +29,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "sprCajaAzul",
-    "path": "sprites/sprCajaAzul/sprCajaAzul.yy",
+    "name": "sprCintaTransportadora",
+    "path": "sprites/sprCintaTransportadora/sprCintaTransportadora.yy",
   },
   "spriteMaskId": null,
   "visible": true,
