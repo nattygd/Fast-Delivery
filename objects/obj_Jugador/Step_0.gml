@@ -27,4 +27,8 @@ if(speed = 0){
 		vspeed = -spd;
 		distance = 16;
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> b4784d55d74a3ef7a6b8b57581be804ca3b69a9c

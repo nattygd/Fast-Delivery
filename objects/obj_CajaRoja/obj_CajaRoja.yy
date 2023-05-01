@@ -24,7 +24,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "sprCajaRoja",
     "path": "sprites/sprCajaRoja/sprCajaRoja.yy",

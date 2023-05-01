@@ -15,8 +15,13 @@
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ac9eccac-e6b5-41f3-a243-2a0ae5e1ef10",},
   ],
+<<<<<<< HEAD
   "gridX": 0,
   "gridY": 0,
+=======
+  "gridX": 200,
+  "gridY": 100,
+>>>>>>> b4784d55d74a3ef7a6b8b57581be804ca3b69a9c
   "height": 200,
   "HTile": false,
   "layers": [
@@ -59,8 +64,8 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 185,
-    "yorigin": 251,
+    "xorigin": 820,
+    "yorigin": 104,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

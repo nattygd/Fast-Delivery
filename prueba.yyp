@@ -35,6 +35,7 @@
   },
   "resources": [
     {"id":{"name":"obj_CajaVerde","path":"objects/obj_CajaVerde/obj_CajaVerde.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"spr_Vidas","path":"sprites/spr_Vidas/spr_Vidas.yy",},},
     {"id":{"name":"sprRepartidor","path":"sprites/sprRepartidor/sprRepartidor.yy",},},
     {"id":{"name":"LimitadorMundo","path":"sprites/LimitadorMundo/LimitadorMundo.yy",},},
@@ -47,6 +48,20 @@
     {"id":{"name":"obj_CajaRoja","path":"objects/obj_CajaRoja/obj_CajaRoja.yy",},},
     {"id":{"name":"obj_Jugador","path":"objects/obj_Jugador/obj_Jugador.yy",},},
     {"id":{"name":"spr_MontaCarga","path":"sprites/spr_MontaCarga/spr_MontaCarga.yy",},},
+=======
+    {"id":{"name":"scrMovimientoJugador","path":"sprites/scrMovimientoJugador/scrMovimientoJugador.yy",},},
+    {"id":{"name":"sprRepartidor","path":"sprites/sprRepartidor/sprRepartidor.yy",},},
+    {"id":{"name":"spr_Rompecabezas","path":"sprites/spr_Rompecabezas/spr_Rompecabezas.yy",},},
+    {"id":{"name":"LimitadorMundo","path":"sprites/LimitadorMundo/LimitadorMundo.yy",},},
+    {"id":{"name":"sprCajaVerde","path":"sprites/sprCajaVerde/sprCajaVerde.yy",},},
+    {"id":{"name":"sprUsuario","path":"sprites/sprUsuario/sprUsuario.yy",},},
+    {"id":{"name":"obj_CintaTransportadora","path":"objects/obj_CintaTransportadora/obj_CintaTransportadora.yy",},},
+    {"id":{"name":"LimitadorMapa","path":"objects/LimitadorMapa/LimitadorMapa.yy",},},
+    {"id":{"name":"sprCajaAzul","path":"sprites/sprCajaAzul/sprCajaAzul.yy",},},
+    {"id":{"name":"obj_CajaRoja","path":"objects/obj_CajaRoja/obj_CajaRoja.yy",},},
+    {"id":{"name":"obj_Jugador","path":"objects/obj_Jugador/obj_Jugador.yy",},},
+    {"id":{"name":"obj_Rompecabezas","path":"objects/obj_Rompecabezas/obj_Rompecabezas.yy",},},
+>>>>>>> b4784d55d74a3ef7a6b8b57581be804ca3b69a9c
     {"id":{"name":"obj_CajaAzul","path":"objects/obj_CajaAzul/obj_CajaAzul.yy",},},
     {"id":{"name":"obj_Intento","path":"objects/obj_Intento/obj_Intento.yy",},},
     {"id":{"name":"ptH_NPCentra","path":"paths/ptH_NPCentra/ptH_NPCentra.yy",},},
@@ -59,6 +74,7 @@
     {"id":{"name":"sprNPC2enojado","path":"sprites/sprNPC2enojado/sprNPC2enojado.yy",},},
     {"id":{"name":"obj_NPC1","path":"objects/obj_NPC1/obj_NPC1.yy",},},
     {"id":{"name":"sprCintaTransportadora","path":"sprites/sprCintaTransportadora/sprCintaTransportadora.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"obj_Vidas","path":"objects/obj_Vidas/obj_Vidas.yy",},},
     {"id":{"name":"sprRack","path":"sprites/sprRack/sprRack.yy",},},
     {"id":{"name":"sprIntento","path":"sprites/sprIntento/sprIntento.yy",},},
@@ -73,6 +89,12 @@
     {"id":{"name":"snd_Enojado","path":"sounds/snd_Enojado/snd_Enojado.yy",},},
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
     {"id":{"name":"obj_CintaTransportadora","path":"objects/obj_CintaTransportadora/obj_CintaTransportadora.yy",},},
+=======
+    {"id":{"name":"sprIntento","path":"sprites/sprIntento/sprIntento.yy",},},
+    {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
+    {"id":{"name":"sprCajaRoja","path":"sprites/sprCajaRoja/sprCajaRoja.yy",},},
+    {"id":{"name":"sprColgante","path":"sprites/sprColgante/sprColgante.yy",},},
+>>>>>>> b4784d55d74a3ef7a6b8b57581be804ca3b69a9c
     {"id":{"name":"sprTablero","path":"sprites/sprTablero/sprTablero.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
