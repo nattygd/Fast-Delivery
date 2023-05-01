@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sprCintaTransportadora",
-  "bbox_bottom": 706,
-  "bbox_left": 324,
-  "bbox_right": 1635,
-  "bbox_top": 599,
+  "bbox_bottom": 168,
+  "bbox_left": 178,
+  "bbox_right": 1489,
+  "bbox_top": 61,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"149016c4-2ffc-4668-8004-7a51ccaf01ea",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ac9eccac-e6b5-41f3-a243-2a0ae5e1ef10",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 1280,
+  "height": 200,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1d9de3b8-3c36-455f-92d9-648b80adf99a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c91d1f41-a414-45f7-98fa-a18785e71e0f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 9,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"149016c4-2ffc-4668-8004-7a51ccaf01ea","path":"sprites/sprCintaTransportadora/sprCintaTransportadora.yy",},},},"Disabled":false,"id":"b4c19a21-9c02-432c-b8ee-c60852cb51bd","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ac9eccac-e6b5-41f3-a243-2a0ae5e1ef10","path":"sprites/sprCintaTransportadora/sprCintaTransportadora.yy",},},},"Disabled":false,"id":"85a7133e-3ea7-4380-838e-f537998a231a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1792,
+  "width": 1500,
 }
