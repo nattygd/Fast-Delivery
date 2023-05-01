@@ -9,6 +9,6 @@ path_start(ptH_NPCentra, 1, path_action_stop, true);
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 3915B239
-/// @DnDArgument : "steps" "240"
+/// @DnDArgument : "steps" "210"
 /// @DnDArgument : "alarm" "1"
-alarm_set(1, 240);
+alarm_set(1, 210);
