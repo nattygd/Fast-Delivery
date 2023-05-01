@@ -24,7 +24,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
     "name": "sprCajaVerde",
     "path": "sprites/sprCajaVerde/sprCajaVerde.yy",

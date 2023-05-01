@@ -1,7 +1,6 @@
 {
   "FolderOrderSettings": [
     {"name":"Conjuntos de casillas","order":1,"path":"folders/Conjuntos de casillas.yy",},
-<<<<<<< HEAD
     {"name":"Curvas de animación","order":10,"path":"folders/Curvas de animación.yy",},
     {"name":"Extensiones","order":12,"path":"folders/Extensiones.yy",},
     {"name":"Fuentes","order":5,"path":"folders/Fuentes.yy",},
@@ -27,33 +26,6 @@
     {"name":"obj_MontaCarga","order":14,"path":"objects/obj_MontaCarga/obj_MontaCarga.yy",},
     {"name":"obj_CajaRoja","order":1,"path":"objects/obj_CajaRoja/obj_CajaRoja.yy",},
     {"name":"spr_MontaCarga","order":19,"path":"sprites/spr_MontaCarga/spr_MontaCarga.yy",},
-=======
-    {"name":"Curvas de animación","order":11,"path":"folders/Curvas de animación.yy",},
-    {"name":"Extensiones","order":13,"path":"folders/Extensiones.yy",},
-    {"name":"Fuentes","order":6,"path":"folders/Fuentes.yy",},
-    {"name":"Líneas temporales","order":7,"path":"folders/Líneas temporales.yy",},
-    {"name":"Notas","order":12,"path":"folders/Notas.yy",},
-    {"name":"Objetos","order":8,"path":"folders/Objetos.yy",},
-    {"name":"Particle Systems","order":14,"path":"folders/Particle Systems.yy",},
-    {"name":"Rutas","order":3,"path":"folders/Rutas.yy",},
-    {"name":"Salas","order":9,"path":"folders/Salas.yy",},
-    {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
-    {"name":"Secuencias","order":10,"path":"folders/Secuencias.yy",},
-    {"name":"Shaders","order":5,"path":"folders/Shaders.yy",},
-    {"name":"Sonidos","order":2,"path":"folders/Sonidos.yy",},
-  ],
-  "ResourceOrderSettings": [
-    {"name":"obj_CajaVerde","order":2,"path":"objects/obj_CajaVerde/obj_CajaVerde.yy",},
-    {"name":"spr_Rompecabezas","order":12,"path":"sprites/spr_Rompecabezas/spr_Rompecabezas.yy",},
-    {"name":"LimitadorMundo","order":13,"path":"sprites/LimitadorMundo/LimitadorMundo.yy",},
-    {"name":"sprCajaVerde","order":4,"path":"sprites/sprCajaVerde/sprCajaVerde.yy",},
-    {"name":"sprUsuario","order":6,"path":"sprites/sprUsuario/sprUsuario.yy",},
-    {"name":"obj_CintaTransportadora","order":7,"path":"objects/obj_CintaTransportadora/obj_CintaTransportadora.yy",},
-    {"name":"LimitadorMapa","order":8,"path":"objects/LimitadorMapa/LimitadorMapa.yy",},
-    {"name":"sprCajaAzul","order":5,"path":"sprites/sprCajaAzul/sprCajaAzul.yy",},
-    {"name":"obj_CajaRoja","order":1,"path":"objects/obj_CajaRoja/obj_CajaRoja.yy",},
-    {"name":"obj_Rompecabezas","order":6,"path":"objects/obj_Rompecabezas/obj_Rompecabezas.yy",},
->>>>>>> b4784d55d74a3ef7a6b8b57581be804ca3b69a9c
     {"name":"obj_CajaAzul","order":3,"path":"objects/obj_CajaAzul/obj_CajaAzul.yy",},
     {"name":"obj_Intento","order":5,"path":"objects/obj_Intento/obj_Intento.yy",},
     {"name":"obj_Rompecabezas","order":16,"path":"objects/obj_Rompecabezas/obj_Rompecabezas.yy",},
@@ -65,7 +37,6 @@
     {"name":"sprNPC2enojado","order":15,"path":"sprites/sprNPC2enojado/sprNPC2enojado.yy",},
     {"name":"obj_NPC1","order":10,"path":"objects/obj_NPC1/obj_NPC1.yy",},
     {"name":"sprCintaTransportadora","order":2,"path":"sprites/sprCintaTransportadora/sprCintaTransportadora.yy",},
-<<<<<<< HEAD
     {"name":"obj_Vidas","order":12,"path":"objects/obj_Vidas/obj_Vidas.yy",},
     {"name":"sprRack","order":18,"path":"sprites/sprRack/sprRack.yy",},
     {"name":"sprIntento","order":8,"path":"sprites/sprIntento/sprIntento.yy",},
@@ -78,12 +49,6 @@
     {"name":"sprBoton","order":21,"path":"sprites/sprBoton/sprBoton.yy",},
     {"name":"MenuInicio","order":1,"path":"rooms/MenuInicio/MenuInicio.yy",},
     {"name":"obj_CintaTransportadora","order":18,"path":"objects/obj_CintaTransportadora/obj_CintaTransportadora.yy",},
-=======
-    {"name":"sprIntento","order":8,"path":"sprites/sprIntento/sprIntento.yy",},
-    {"name":"Note1","order":15,"path":"notes/Note1/Note1.yy",},
-    {"name":"sprCajaRoja","order":1,"path":"sprites/sprCajaRoja/sprCajaRoja.yy",},
-    {"name":"sprColgante","order":7,"path":"sprites/sprColgante/sprColgante.yy",},
->>>>>>> b4784d55d74a3ef7a6b8b57581be804ca3b69a9c
     {"name":"sprTablero","order":3,"path":"sprites/sprTablero/sprTablero.yy",},
   ],
 }
