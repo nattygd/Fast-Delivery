@@ -1,0 +1,10 @@
+[
+  {
+    "Enunciado": "Complete el siguiente problema, el cual muestra el antecesor y sucesor de un numero:\nAlgoritmo sucesor_antecesor\n\tLeer numero\n\t_________________\n\tsucesor<-numero+1\n\tEscribir \"El antecesor de \",numero,\" es \",antecesor\n\tEscribir \"El sucesor de \",numero,\" es \",sucesor\nFinAlgoritmo",
+    "Alternativa A": "antecesor<-numero",
+    "Alternativa B": "antecesor<-numero-2",
+    "Alternativa C": "antecesor<-numero-1",
+    "Alternativa D": "antecesor<-numero+1",
+    "Correcta": "antecesor<-numero-1"
+  }
+]
