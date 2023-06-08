@@ -1,0 +1,137 @@
+[
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para preguntar si el número leído es el número 10?:",
+    "Codigo": "Algoritmo Indicar_si_es_el_10\n    x<-0\n    Escribir \"Ingrese un numero:\"\n    Leer x\n    Si (____) Entonces\n        Escribir \"El numero es el 10\"\n    FinSi\nFinAlgoritmo",
+    "AlternativaA": "x=10",
+    "AlternativaB": "10",
+    "AlternativaC": "x==10",
+    "AlternativaD": "x<>10",
+    "Correcta": "A"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para preguntar si el número es positivo?:",
+    "Codigo": "Algoritmo Positivo_o_negativo\n    x<-0\n    Escribir \"Ingrese un numero:\"\n    Leer x\n    ______\n        Escribir \"El numero es positivo\"\n    SiNo\n        Escribir \"El numero es negativo\"\n    FinSi\nFinAlgoritmo",
+    "AlternativaA": "Si (x>=0) Entonces",
+    "AlternativaB": "Si (x==0)",
+    "AlternativaC": "Si (x< =0) Entonces",
+    "AlternativaD": "(x=0)",
+    "Correcta": "A"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para preguntar si el número es par?:",
+    "Codigo": "Algoritmo Es_par_o_impar\n    x<-0\n    Escribir \"Ingrese un numero:\"\n    Leer x\n    _______ Entonces\n        Escribir \"El numero es par\"\n    SiNo\n        Escribir \"El numero es impar\"\n    FinSi\nFinAlgoritmo",
+    "AlternativaA": "Si x=(x/2)*2",
+    "AlternativaB": "Si x=trunc(x/2)",
+    "AlternativaC": "Si x=trunc(x/2)*2",
+    "AlternativaD": "Si x==trunc(x/2)*2",
+    "Correcta": "C"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para preguntar si el número leído es múltiplo de 5?:",
+    "Codigo": "Algoritmo Es_multiplo_de_5\n    x<-0\n    Escribir \"Ingrese un numero:\"\n    Leer x\n    Si ________ Entonces\n        Escribir \"Es multiplo de 5\"\n    FinSi\nFinAlgoritmo",
+    "AlternativaA": "x==trunc(x/5)*5",
+    "AlternativaB": "x=trunc(x/5)*5",
+    "AlternativaC": "x=trunc(x*5)",
+    "AlternativaD": "x=(x/5)*5",
+    "Correcta": "B"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para validar que la edad sea mayor a cero?:",
+    "Codigo": "Algoritmo Anio_nacimiento\n    anio<-0\n    edad<-0\n    Escribir \"Ingrese su edad:\"\n    Leer edad\n    _______\n        anio<-2023-edad\n        Escribir \"Usted nació el año \", anio\n    FinSi\nFinAlgoritmo",
+    "AlternativaA": "edad>0 Entonces",
+    "AlternativaB": "Si edad=2023 Entonces",
+    "AlternativaC": "Si edad<0 Entonces",
+    "AlternativaD": "Si edad>0 Entonces",
+    "Correcta": "D"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para preguntar si el número es par?:",
+    "Codigo": "Algoritmo Imprimir_num_pares_desde_1al10\n    x<-1\n    Escribir \"Los numeros son:\"\n    Mientras x<=10\n        ________ Entonces\n            Escribir x\n        FinSi\n        x<-x+1\n    FinMientras\nFinAlgoritmo",
+    "AlternativaA": "Si x=trunc(x/2)*2",
+    "AlternativaB": "x=trunc(x/2)*2",
+    "AlternativaC": "Si x=trunc(x/2)",
+    "AlternativaD": "Si x=(x/2)*2",
+    "Correcta": "A"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Cómo puedo codificar que el número disminuya en una unidad?:",
+    "Codigo": "Algoritmo recorer_5_pares_positivos\n    x <- 4\n    Escribir \"Los numeros pares positivos son: \"\n    Mientras (x>=-4) Hacer\n        Si x>0 y x=trunc(x/2)*2 Entonces\n             Escribir x\n        Fin Si\n        ___\n    Fin Mientras\nFinAlgoritmo",
+    "AlternativaA": "x==x-1",
+    "AlternativaB": "x<-x+1",
+    "AlternativaC": "x<-x-1",
+    "AlternativaD": "trunc<-x-1",
+    "Correcta": "C"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para preguntar si el número es menor o igual a diez?:",
+    "Codigo": "Algoritmo Recorrer_desde_10negativo_Al_10_contar_multiplos2y3\n    x<-10\n    contador<-0\n    Escribir \"Los numeros son: \"\n    Mientras ___Hacer\n        Si x=trunc(x/2)*2 y x=trunc(x/3)*3 Entonces\n            Escribir x\n            contador<-contador+1\n        Fin Si\n        x<-x+1\n    Fin Mientras\n    Escribir \"La cantidad de numeros es: \", contador\nFinAlgoritmo",
+    "AlternativaA": "(contador<=10)",
+    "AlternativaB": "(x<=10)",
+    "AlternativaC": "(x>=10)",
+    "AlternativaD": "(contador=10)",
+    "Correcta": "B"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Qué alternativa es la correcta para que el programa sume los múltiplos de 3?:",
+    "Codigo": "Algoritmo Recorrer_1y7_contar_sumar_multiplos3\n    x<-1\n    contador<-0\n    suma<-0\n    Escribir \"Los numeros son: \"\n    Mientras (x<=7) Hacer\n        Si x=trunc(x/3)*3 Entonces\n            Escribir x\n            contador<-contador+1\n            _______\n        Fin Si\n        x<-x+1\n    Fin Mientras\n    Escribir \"La cantidad de numeros es: \", contador\n    Escribir \"La suma de los numeros es: \", suma\nFinAlgoritmo",
+    "AlternativaA": "suma<-x+x",
+    "AlternativaB": "x<-suma+x",
+    "AlternativaC": "suma<-x+x",
+    "AlternativaD": "suma<-suma+x",
+    "Correcta": "D"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Cómo puedo calcular el cuadrado de un número ingresado?:",
+    "Codigo": "Algoritmo Es_par_mayor100_cuadrado\n    x<-1\n    cuadrado<-0\n    Escribir \"Ingresar un numero: \"\n    Leer x\n    Si x=trunc(x/2)*2 y x>100 Entonces\n        _____\n    Fin Si\n    Escribir \"Su numero al cuadrado es: \", cuadrado\nFinAlgoritmo",
+    "AlternativaA": "x^2",
+    "AlternativaB": "cuadrado<-x^2",
+    "AlternativaC": "cuadrado<-x*2",
+    "AlternativaD": "x<-x^2",
+    "Correcta": "B"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Qué condición se debe ingresar para hacer un descuento cuando se llevan 10 productos o más?:",
+    "Codigo": "Algoritmo detalle_por_mayor\n    Leer precio, cantidad\n    Escribir Sin Saltar \"Precio final: \"\n    Si (_____) Entonces\n        preciofinal <- ((precio*cantidad)/10)*9\n        Escribir preciofinal\n    SiNo\n        preciofinal <- precio*cantidad\n        Escribir preciofinal\n    Fin Si\nFinAlgoritmo",
+    "AlternativaA": "cantidad<=10",
+    "AlternativaB": "precio>=10",
+    "AlternativaC": "cantidad>10",
+    "AlternativaD": "cantidad>=10",
+    "Correcta": "D"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Cómo debo escribir la condición para que se escriban distintos resultados dependiendo de las bebidas trasladadas?:",
+    "Codigo": "Algoritmo jabas_bebidas\n    Leer cantBebidas\n    jabas <- trunc(cantBebidas/12)\n    sobrantes <- cantBebidas mod 12\n    Escribir \"Cantidad de jabas = \" , jabas\n    __________\n        Escribir \"Todas las bebidas fueron trasladadas\"\n    SiNo\n        Escribir \"quedan \", sobrantes, \" sin trasladar\"\n    Fin Si\nFinAlgoritmo",
+    "AlternativaA": "Si (sobrantes=0) Entonces",
+    "AlternativaB": "Si (sobrantes=0)",
+    "AlternativaC": "Si (cantBebidas=0) Entonces",
+    "AlternativaD": "(sobrantes=0) Entonces",
+    "Correcta": "A"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para realizar un descuento a una persona con edad mayor o igual a 60 y que lleve 10 cajas o más?:",
+    "Codigo": "Algoritmo descuento_farmacia_popular\n    Leer edad, cantCajas, valorCajaSinIva\n    precioTotalCajasSinIva <- cantCajas*valorCajaSinIva\n    precioTotalCajasConIva <- precioTotalCajasSinIva*1.19\n    Si _________ Entonces\n        descuento <- precioTotalCajasConIva*0.6\n    SiNo\n        descuento <- precioTotalCajasConIva*0.07\n    Fin Si\n    precioFinalConDescuento <- precioTotalCajasConIva - descuento\n    Escribir \"Valor compra con IVA = $\", redon(precioTotalCajasConIva)\n    Escribir \"Total descuento = $\", redon(descuento)\n    Escribir \"Valor compra con descuento = $\", redon(precioFinalConDescuento)\nFinAlgoritmo",
+    "AlternativaA": "(edad>=60) y (edad>=10)",
+    "AlternativaB": "(edad>=60) y (cantCajas>=10)",
+    "AlternativaC": "(edad<=60) y (cantCajas>=10)",
+    "AlternativaD": "(edad>=60) y (cantCajas<=10)",
+    "Correcta": "B"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para preguntar si el número de ventas es menor a 1000000?:",
+    "Codigo": "Algoritmo comision_banco\n    Leer ventas\n    Si (ventas < 50000) Entonces\n        comision <- 0\n    Fin Si\n    Si (ventas  < 500000) Entonces\n        comision <- 8\n    Fin Si\n    __________\n        comision <- 10\n    SiNo\n        comision <- 15\n    Fin Si\n    valorComision <- ventas * comision /100\n    Escribir \"Su comisión es de $\", redon(valorComision)\nFinAlgoritmo",
+    "AlternativaA": "Si (ventas < 10000) Entonces",
+    "AlternativaB": "Si (ventas > 1000000) Entonces",
+    "AlternativaC": "Si (ventas < 1000000)",
+    "AlternativaD": "Si (ventas < 1000000) Entonces",
+    "Correcta": "D"
+  },
+  {
+    "Encabezado": "1. Complete el siguiente problema, ¿Qué condición debe ingresar para preguntar si el número de la nota es mayor o igual a cinco?:",
+    "Codigo": "Algoritmo promedio_nubes\n    Leer trabajo1, trabajo2, trabajo3, presentacion1, presentacion2, proyecto, prueba\n    promTrabajos <- (trabajo1+trabajo2+trabajo3)/3\n    promPresentaciones <- (presentacion1+presentacion2)/2\n    promProyPrueba=(proyecto+prueba)/2\n    Si (promProyPrueba >= 4) Entonces\n        nota <- prueba*0.4+proyecto*0.4+promTrabajos*0.1+promPresentaciones*0.1\n    SiNo\n        nota <- prueba*0.4+proyecto*0.4+promPresentaciones*0.2\n    Fin Si\n    Escribir \"Nota presentación = \" redon(nota)\n    Si (nota > 6) Entonces\n        Escribir \"Vuelo de observación!\"\n    Fin SI\n    __________\n        Escribir \"Aprobado\"\n    Fin SI\n    SI (nota >= 3) Entonces\n        Escribir \"Debe rendir examen\"\n    SiNo\n        Escribir \"Reprobado\"\n    Fin Si\nFinAlgoritmo",
+    "AlternativaA": "(nota >= 5) Entonces",
+    "AlternativaB": "Si (nota <= 5) Entonces",
+    "AlternativaC": "Si (nota >= 5) Entonces",
+    "AlternativaD": "Si (nota >= 5)",
+    "Correcta": "C"
+  }
+ ]

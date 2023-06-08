@@ -1,0 +1,74 @@
+[
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Cómo podría escribir el antecesor del número?:",
+    "Codigo": "Algoritmo sucesor_antecesor\n    Leer numero\n    ______\n    sucesor<-numero+1\n    Escribir \"El antecesor de \",numero,\" es \",antecesor\n    Escribir \"El sucesor de \",numero,\" es \",sucesor\nFinAlgoritmo",
+    "AlternativaA": "numero+3",
+    "AlternativaB": "antecesor<-numero+3",
+    "AlternativaC": "numero-1",
+    "AlternativaD": "antecesor<-numero-1",
+    "Correcta": "D"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Cómo podría escribir el volumen de un cubo?:",
+    "Codigo": "Algoritmo area_volumen_cubo\n    Leer lado\n    areaCubo<-(lado^2)*6\n    ______\n    Escribir \"Area del cubo = \", areaCubo\n    Escribir \"Volumen del cubo = \", volumenCubo\nFinAlgoritmo",
+    "AlternativaA": "volumenCubo<-(lado^3)",
+    "AlternativaB": "volumenCubo<-(lado*3)",
+    "AlternativaC": "(lado^3)",
+    "AlternativaD": "volumenCubo<-(lado^4)",
+    "Correcta": "A"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Cómo podría mostrar la cantidad de jabas?:",
+    "Codigo": "Algoritmo jabasBebidas\n    Leer cantidadBebidas\n    jabas <- trunc(cantidadBebidas / 12)\n    noTransportadas <- cantidadBebidas - jabas * 12\n    ___________\n    Escribir \"Quedan \", noTransportadas, \" sin trasladar\"\nFinAlgoritmo",
+    "AlternativaA": "Cantidad de jabas = jabas",
+    "AlternativaB": "Escribir \"Cantidad de jabas = \", jabas",
+    "AlternativaC": "Cantidad de jabas = ",
+    "AlternativaD": "Cantidad de jabas = \", jabas",
+    "Correcta": "B"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Cómo leería los catetos del triángulo?:",
+    "Codigo": "Algoritmo teorema_pitagoras\n    ________\n    hipotenusa <- RC((catetoA^2)+(catetoB^2))\n    Escribir \"La hipotenusa es = \", hipotenusa\nFinAlgoritmo",
+    "AlternativaA": "Leer catetoA, catetoB",
+    "AlternativaB": "catetoB",
+    "AlternativaC": "catetoA, catetoB",
+    "AlternativaD": "catetoA",
+    "Correcta": "A"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Cómo podría escribir el valor de la cuota por invitado?:",
+    "Codigo": "Algoritmo maraton_series\n    Leer cantBebidas, precioBebidas, cantPizzas, precioPizzas, cantPalomitas, precioPalomitas, numPersonas\n    itemsComprados <- cantBebidas+cantPalomitas+cantPizzas\n    totalGastado <- cantBebidas * precioBebidas+cantPizzas * precioPizzas+cantPalomitas * precioPalomitas\n    cuotaInvitado <- totalGastado/numPersonas\n    Escribir \"Total gasto compra = \", totalGastado\n    ______________\n    Escribir \"Total items comprados = \", itemsComprados\nFinAlgoritmo",
+    "AlternativaA": "Valor cuota por invitado =",
+    "AlternativaB": "Valor cuota por invitado = \", redon(cuotaInvitado)",
+    "AlternativaC": "Escribir \"Valor cuota por invitado = \", redon(cuotaInvitado)",
+    "AlternativaD": "redon(cuotaInvitado)",
+    "Correcta": "C"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Cómo podría calcular el promedio de notas?:",
+    "Codigo": "Algoritmo Promedio_notas\n    nota1<-0\n    nota2<-0\n    nota3<-0\n    suma<-0\n    Leer nota1\n    Leer nota2\n    Leer nota3\n    suma<-nota1+nota2+nota3\n    ______\n    Escribir \"Promedio de notas= \", promedio\nFinAlgoritmo",
+    "AlternativaA": "promedio<-suma*3",
+    "AlternativaB": "promedio<-suma/3",
+    "AlternativaC": "suma/3<-promedio",
+    "AlternativaD": "suma/3",
+    "Correcta": "B"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Cómo podría escribir el perímetro y el área resultante?",
+    "Codigo": "Algoritmo Perimetro_area_rectangulo\n    largo<-0\n    ancho<-0\n    perimetro<-0\n    area<-0\n    Leer largo\n    Leer ancho\n    perimetro<-largo*2 + ancho*2\n    area<-largo*ancho\n    ____________\nFinAlgoritmo",
+    "AlternativaA": "Escribir \"El perimetro es \"+ perimetro, \" y el area es\"+ area",
+    "AlternativaB": "Leer \"El perimetro es \", perimetro, \" y el area es\", area",
+    "AlternativaC": "Escribir \"El perimetro es \" perimetro \" y el area es\" area",
+    "AlternativaD": "Escribir \"El perimetro es \", perimetro, \" y el area es\", area",
+    "Correcta": "D"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Cómo podría identificar el último dígito de un número?",
+    "Codigo": "Algoritmo Ultimo_digito\n    numero<-0\n    ultimoDigito<-0\n    Leer numero\n    _________\n    Escribir \"El ultimo digito es: \", ultimoDigito\nFinAlgoritmo",
+    "AlternativaA": "ultimoDigito<-numero mod 10",
+    "AlternativaB": "ultimoDigito<-numero *10",
+    "AlternativaC": "ultimoDigito<-numero/10",
+    "AlternativaD": "ultimoDigito<-numero",
+    "Correcta": "A"
+  }
+]

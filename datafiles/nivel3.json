@@ -1,0 +1,164 @@
+[
+ {
+   "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el programa recorra desde el 0 hasta el 10?:",
+   "Codigo": "Algoritmo cero_al_diez\n    x=0\n    _________________\n        Imprimir x\n        x=x+1\n    Fin Mientras\nFinAlgoritmo",
+   "AlternativaA": "Mientras (x<=10) Hacer",
+   "AlternativaB": "Mientras (x>=10) Hacer",
+   "AlternativaC": "Mientras (x<=10)",
+   "AlternativaD": "Mientras (x==10) Hacer\n",
+   "Correcta": "A"
+ },
+ {
+   "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el número ingresado sea mayor o igual a uno?:",
+   "Codigo": "Algoritmo Contar_entre_10_y_0\n    x<-9\n    c<-0\n    Mientras _______ Hacer\n        c<-c+1\n        x<-x-1\n    Fin Mientras\n    Imprimir c\nFinAlgoritmo",
+   "AlternativaA": "(x>1)",
+   "AlternativaB": "(x<=1)",
+   "AlternativaC": "(x>=1)",
+   "AlternativaD": "(x>=10)",
+   "Correcta": "C"
+ },
+ {
+   "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el programa recorra desde el 0 hasta el 20?:",
+   "Codigo": "Algoritmo Recorrer_desde_1y20_imprimir_contar\n    x<-1\n    c<-0\n    Imprimir \"Los números son:\"\n    __________________\n        Imprimir x\n        c<-c+1\n        x<-x+1\n    FinMientras\n    Imprimir \"Los números contados son: \", c\nFinAlgoritmo",
+   "AlternativaA": "Mientras (x<=1) Hacer",
+   "AlternativaB": "(x<=20) Hacer",
+   "AlternativaC": "Mientras (x>=20) Hacer",
+   "AlternativaD": "Mientras (x<=20) Hacer",
+   "Correcta": "D"
+ },
+ {
+   "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el programa recorra desde el 1 hasta el 4?:",
+   "Codigo": "Algoritmo Imprimir_desde_unidad_al_4\n    x<-1\n    Imprimir \"Los números son:\"\n    _________________\n        Imprimir x\n        x<-x+1\n    FinMientras\nFinAlgoritmo",
+   "AlternativaA": "Mientras (x<=4) Hacer",
+   "AlternativaB": "(x<=4) Hacer",
+   "AlternativaC": "Mientras (x=4) Hacer",
+   "AlternativaD": "Mientras (x<=1) Hacer",
+   "Correcta": "A"
+ },
+ {
+   "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el número ingresado sea mayor o igual a dos?:",
+   "Codigo": "Algoritmo Recorrer_entre_4y1\n    x<-3\n    Imprimir \"Los números son:\"\n    Mientras _______ Hacer\n         Imprimir x\n        x<-x-1\n    FinMientras\nFinAlgoritmo",
+   "AlternativaA": "(x<=2)",
+   "AlternativaB": "(x>=2)",
+   "AlternativaC": "(x>=4)",
+   "AlternativaD": "(x=2)",
+   "Correcta": "B"
+ },
+ {
+   "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el programa recorra hasta el -10?:",
+   "Codigo": "Algoritmo Recorrer_1ra_decena_negativos_decreciente\n    x<--1\n    ____________________\n        Imprimir x\n        x<-x-1\n    FinMientras\nFinAlgoritmo",
+   "AlternativaA": "Mientras (x<=-10) Hacer",
+   "AlternativaB": "Mientras (x>=-10)",
+   "AlternativaC": "Mientras (x>-10) Hacer",
+   "AlternativaD": "Mientras (x>=-10) Hacer",
+   "Correcta": "D"
+ },
+ {
+   "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el número ingresado sea menor 51?:",
+   "Codigo": "Algoritmo Imprimir_10_primeros_multiplos_5_entre_1y51\n    x<-5\n    Imprimir \"Los múltiplos son:\"\n    Mientras ________ Hacer\n        Imprimir x\n        x<-x+5\n    FinMientras\nFinAlgoritmo",
+   "AlternativaA": "(x>51)",
+   "AlternativaB": "(x<5)",
+   "AlternativaC": "(x<51)",
+   "AlternativaD": "(x<10)",
+   "Correcta": "C"
+ },
+ {
+   "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el programa recorra hasta el número -10?:",
+   "Codigo": "Algoritmo Imprimir_múltiplos_6_desde_10y_10negativo\n    x<-6\n    Imprimir \"Los múltiplos de 6 son:\"\n    ____________________\n        Imprimir x\n        x<-x-6\n    FinMientras\nFinAlgoritmo",
+   "AlternativaA": "Mientras (x>=-10) Hace",
+   "AlternativaB": "Mientras (x>=10) Hacer",
+   "AlternativaC": "(x>=-10)",
+   "AlternativaD": "Mientras (<=-10)Hacer",
+   "Correcta": "A"
+ },
+ {
+   "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el número ingresado sea menor o igual a cero?:",
+   "Codigo": "Algoritmo Recorrer_pares_desde_10negativo_y_0\n    x<--10\n    Imprimir \"Los números pares son:\"\n    Mientras _______ Hacer\n        Imprimir x\n        x<-x+2\n    FinMientras\nFinAlgoritmo",
+   "AlternativaA": "(x>=0)",
+   "AlternativaB": "(x<=0)",
+   "AlternativaC": "(x=-10)",
+   "AlternativaD": "(x<0)",
+   "Correcta": "B"
+ },
+ {
+   "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el programa recorra hasta un número menor o igual a doce?:",
+   "Codigo": "Algoritmo Imprimir_1raDocena_num_positivos_creciente\n    x<-3\n    Imprimir \"La primera docena es:\"\n    ___________________\n        Imprimir x\n        x<-x+1\n    FinMientras\nFinAlgoritm",
+   "AlternativaA": "Mientras (x>=12) Hacer",
+   "AlternativaB": "(x<=12) Hacer",
+   "AlternativaC": "Mientras (x<=12) Hacer",
+   "AlternativaD": "Mientras (x==12) Hacer",
+   "Correcta": "C"
+ },
+ {
+   "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el programa recorra hasta un número menor o igual a 10?:",
+   "Codigo": "Algoritmo Imprimir_impares_desde_2al10\n    x<-3\n    Imprimir \"Los números impares son:\"\n    __________________\n        Imprimir x\n        x<-x+2\n    FinMientras\nFinAlgoritmo",
+   "AlternativaA": "(x<=10) Hacer",
+   "AlternativaB": "Mientras (x>=10) Hacer",
+   "AlternativaC": "Mientras (x<=10)",
+   "AlternativaD": "Mientras (x<=10) Hacer",
+   "Correcta": "D"
+ },
+ {
+   "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el número ingresado sea menor o igual a diez?:",
+   "Codigo": "Algoritmo Recorrer_pares_y_sumar_desde_1al10\n    x<-2\n    suma<-0\n    Imprimir \"Los números pares son:\"\n    Mientras ________ Hacer\n        Imprimir x\n        suma<-suma+x\n        x<-x+2\n    FinMientras\n    Imprimir \"La suma de los números pares es \", suma\nFinAlgoritmo",
+   "AlternativaA": "(x>=10)",
+   "AlternativaB": "(x<=10)",
+   "AlternativaC": "(x=10)",
+   "AlternativaD": "(x<=1)",
+   "Correcta": "B"
+ },
+ {
+   "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el programa recorra hasta un número menor a siete?:",
+   "Codigo": "Algoritmo Imprimir_pares_entre_1y7_contarlos\n    x<-2\n    contador<-0\n    Imprimir \"Los números pares son:\"\n    _________________\n        Imprimir x\n        contador<-contador+1\n        x<-x+2\n    FinMientras\n    Imprimir \"La cantidad de números pares es \", contador\nFinAlgoritmo",
+   "AlternativaA": "Mientras (x<7) Hacer",
+   "AlternativaB": "Mientras (x<7)",
+   "AlternativaC": "Mientras (x>7) Hacer",
+   "AlternativaD": "(x<7) Hacer",
+   "Correcta": "A"
+ },
+ {
+   "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el número sea menor o igual a doce?:",
+   "Codigo": "Algoritmo Contar_sumar_imprimir_1raDocena_numPositivos_creciente\n    x<-1\n    contador<-0\n    suma<-0\n    Imprimir \"Los números son:\"\n    Mientras ________ Hacer\n        Imprimir x\n        contador<-contador+1\n        suma<-suma+x\n        x<-x+2\n    FinMientras\n    Imprimir \"La cantidad de números es \", contador\n    Imprimir \"La suma de los números es \", suma\nFinAlgoritmo",
+   "AlternativaA": "(x>=12)",
+   "AlternativaB": "(x=12)",
+   "AlternativaC": "(x<=1)",
+   "AlternativaD": "(x<=12)",
+   "Correcta": "D"
+ },
+ {
+   "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el programa recorra desde el 1 hasta el total de alumnos?:",
+   "Codigo": "Algoritmo menor_nota\n    Leer totalAlumnos\n    menor <- 7\n    _________________________ Con Paso 1 Hacer\n        Leer nota\n        Si (nota<menor) Entonces\n            menor <- nota\n        Fin Si\n    Fin Para\n    Escribir \"Menor nota final: \", menor\nFinAlgoritmo",
+   "AlternativaA": "Para x>-1 Hasta totalAlumnos",
+   "AlternativaB": "Para totalAlumnos Hasta x<-1",
+   "AlternativaC": "Para x<-1 Hasta totalAlumnos",
+   "AlternativaD": "Para x<-1 Hasta total",
+   "Correcta": "C"
+ },
+ {
+   "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el programa se ejecute cuando la cantidad de personas sea mayor a cero?:",
+   "Codigo": "Algoritmo mayores_edad\n    Leer cantidadpersonas\n    cantidadmayores <- 0\n    cantidadtotal = cantidadpersonas\n    ______________________________\n        Leer edadpersona\n        Si (edadpersona>17) Entonces\n            cantidadmayores <- cantidadmayores+1\n        Fin Si\n        cantidadpersonas <- cantidadpersonas+1\n    Fin Mientras\n    Si (cantidadmayores = 0) Entonces\n        Escribir \"No hubo mayores de edad\"\n    Fin Si\n    Si (cantidadmayores = cantidadtotal) Entonces\n        Escribir \"Todos eran mayores de edad\"\n    SiNo\n        Escribir \"Cantidad de mayores de edad: \", cantidadmayores\n    Fin Si\nFinAlgoritmo",
+   "AlternativaA": "Mientras (cantidadpersonas<0) Hacer",
+   "AlternativaB": "Mientras (cantidadtotal>0) Hacer",
+   "AlternativaC": "Mientras (cantidadpersonas>0) Hacer",
+   "AlternativaD": "Mientras (cantidadpersonas>0)",
+   "Correcta": "C"
+ },
+ {
+   "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el programa se ejecute cuando el número sea distinto de cero?:",
+   "Codigo": "Algoritmo Escribir_numeros_no_multiplos\n    Leer numero\n    ________________________\n        Si (numero % 7 <> 0) y (numero % 3 <> 0) Entonces\n            Suma <- Suma + numero\n            Escribir numero , \" , \"\n        FinSi\n        numero <- numero - 1\n    Fin Mientras\nFinAlgoritmo",
+   "AlternativaA": "Mientras (numero <> 0) Hacer",
+   "AlternativaB": "(numero > 0) Hacer",
+   "AlternativaC": "(numero <> 0)",
+   "AlternativaD": "Mientras (numero <> 0)",
+   "Correcta": "A"
+ },
+ {
+   "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el numero sea distinto a NumeroA?:",
+   "Codigo": "Algoritmo Suma_Divisibles_por_2_y_3\n    Leer NumeroA\n    Leer NumeroB\n    Suma <- 0\n    numero <- NumeroB\n    Mientras ___________________ Hacer\n        Si (numero % 2 = 0) y (numero % 3 = 0) Entonces\n            Suma <- Suma + numero\n        FinSi\n        numero <- numero - 1\n    Fin Mientras\n    Escribir \"Suma = \" , Suma\nFinAlgoritmo",
+   "AlternativaA": "(NumeroB <> NumeroA)",
+   "AlternativaB": "(numero > NumeroA)",
+   "AlternativaC": "(NumeroA <> NumeroB)",
+   "AlternativaD": "(numero <> NumeroA)",
+   "Correcta": "D"
+ }
+]

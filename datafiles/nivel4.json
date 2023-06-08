@@ -1,0 +1,137 @@
+[
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Cómo leería los catetos del triángulo?:",
+    "Codigo": "Algoritmo teorema_pitagoras\n    ________\n    hipotenusa <- RC((catetoA^2)+(catetoB^2))\n    Escribir \"La hipotenusa es = \", hipotenusa\nFinAlgoritmo",
+    "AlternativaA": "Leer catetoA, catetoB",
+    "AlternativaB": "catetoB",
+    "AlternativaC": "catetoA, catetoB",
+    "AlternativaD": "catetoA",
+    "Correcta": "A"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Cómo podría escribir el valor de la cuota por invitado?:",
+    "Codigo": "Algoritmo maraton_series\n    Leer cantBebidas, precioBebidas, cantPizzas, precioPizzas, cantPalomitas, precioPalomitas, numPersonas\n    itemsComprados <- cantBebidas+cantPalomitas+cantPizzas\n    totalGastado <- cantBebidas*precioBebidas+cantPizzas*precioPizzas+cantPalomitas*precioPalomitas\n    cuotaInvitado <- totalGastado/numPersonas\n    Escribir \"Total gasto compra = \", totalGastado\n    ______________\n    Escribir \"Total items comprados = \", itemsComprados\nFinAlgoritmo",
+    "AlternativaA": "Valor cuota por invitado =",
+    "AlternativaB": "Valor cuota por invitado = \", redon(cuotaInvitado)",
+    "AlternativaC": "Escribir \"Valor cuota por invitado = \", redon(cuotaInvitado)",
+    "AlternativaD": "redon(cuotaInvitado)",
+    "Correcta": "C"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Cómo podría calcular el promedio de notas?:",
+    "Codigo": "Algoritmo Promedio_notas\n    nota1<-0\n    nota2<-0\n    nota3<-0\n    suma<-0\n    Leer nota1\n    Leer nota2\n    Leer nota3\n    suma<-nota1+nota2+nota3\n    ______\n    Escribir \"Promedio de notas= \", promedio\nFinAlgoritmo",
+    "AlternativaA": "promedio<-suma*3",
+    "AlternativaB": "promedio<-suma/3",
+    "AlternativaC": "suma/3<-promedio",
+    "AlternativaD": "suma/3",
+    "Correcta": "B"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Cómo podría escribir el perímetro y el área resultante?",
+    "Codigo": "Algoritmo Perimetro_area_rectangulo\n    largo<-0\n    ancho<-0\n    perimetro<-0\n    area<-0\n    Leer largo\n    Leer ancho\n    perimetro<-largo*2 + ancho*2\n    area<-largo*ancho\n    ____________\nFinAlgoritmo",
+    "AlternativaA": "Escribir \"El perimetro es \"+ perimetro, \" y el area es\"+ area",
+    "AlternativaB": "Leer \"El perimetro es \", perimetro, \" y el area es\", area",
+    "AlternativaC": "Escribir \"El perimetro es \" perimetro \" y el area es\" area",
+    "AlternativaD": "Escribir \"El perimetro es \", perimetro, \" y el area es\", area",
+    "Correcta": "D"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Cómo podría identificar el último dígito de un número?",
+    "Codigo": "Algoritmo Ultimo_digito\n    numero<-0\n    ultimoDigito<-0\n    Leer numero\n    _________\n    Escribir \"El ultimo digito es: \", ultimoDigito\nFinAlgoritmo",
+    "AlternativaA": "ultimoDigito<-numero mod 10",
+    "AlternativaB": "ultimoDigito<-numero *10",
+    "AlternativaC": "ultimoDigito<-numero/10",
+    "AlternativaD": "ultimoDigito<-numero",
+    "Correcta": "A"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Qué condición se debe ingresar para hacer un descuento cuando se llevan 10 productos o más?:",
+    "Codigo": "Algoritmo detalle_por_mayor\n    Leer precio, cantidad\n    Escribir Sin Saltar \"Precio final: \"\n    Si (_____) Entonces\n        preciofinal <- ((precio*cantidad)/10)*9\n        Escribir preciofinal\n    SiNo\n        preciofinal <- precio*cantidad\n        Escribir preciofinal\n    Fin Si\nFinAlgoritmo",
+    "AlternativaA": "cantidad<=10",
+    "AlternativaB": "precio>=10",
+    "AlternativaC": "cantidad>10",
+    "AlternativaD": "cantidad>=10",
+    "Correcta": "D"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Cómo debo escribir la condición para que se escriban distintos resultados dependiendo de las bebidas trasladadas?:",
+    "Codigo": "Algoritmo jabas_bebidas\n    Leer cantBebidas\n    jabas <- trunc(cantBebidas/12)\n    sobrantes <- cantBebidas mod 12\n    Escribir \"Cantidad de jabas = \" , jabas\n    __________\n        Escribir \"Todas las bebidas fueron trasladadas\"\n    SiNo\n        Escribir \"quedan \", sobrantes, \" sin trasladar\"\n    Fin Si\nFinAlgoritmo",
+    "AlternativaA": "Si (sobrantes=0) Entonces",
+    "AlternativaB": "Si (sobrantes=0)",
+    "AlternativaC": "Si (cantBebidas=0) Entonces",
+    "AlternativaD": "(sobrantes=0) Entonces",
+    "Correcta": "A"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para realizar un descuento a una persona con edad mayor o igual a 60 y que lleve 10 cajas o más?:",
+    "Codigo": "Algoritmo descuento_farmacia_popular\n    Leer edad, cantCajas, valorCajaSinIva\n    precioTotalCajasSinIva <- cantCajas*valorCajaSinIva\n    precioTotalCajasConIva <- precioTotalCajasSinIva*1.19\n    Si _________ Entonces\n        descuento <- precioTotalCajasConIva*0.6\n    SiNo\n        descuento <- precioTotalCajasConIva*0.07\n    Fin Si\n    precioFinalConDescuento <- precioTotalCajasConIva - descuento\n    Escribir \"Valor compra con IVA = $\", redon(precioTotalCajasConIva)\n    Escribir \"Total descuento = $\", redon(descuento)\n    Escribir \"Valor compra con descuento = $\", redon(precioFinalConDescuento)\nFinAlgoritmo",
+    "AlternativaA": "(edad>=60) y (edad>=10)",
+    "AlternativaB": "(edad>=60) y (cantCajas>=10)",
+    "AlternativaC": "(edad<=60) y (cantCajas>=10)",
+    "AlternativaD": "(edad>=60) y (cantCajas<=10)",
+    "Correcta": "B"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para preguntar si el número de ventas es menor a 1000000?:",
+    "Codigo": "Algoritmo comision_banco\n    Leer ventas\n    Si (ventas < 50000) Entonces\n        comision <- 0\n    Fin Si\n    Si (ventas  < 500000) Entonces\n        comision <- 8\n    Fin Si\n    __________\n        comision <- 10\n    SiNo\n        comision <- 15\n    Fin Si\n    valorComision <- ventas * comision /100\n    Escribir \"Su comisión es de $\", redon(valorComision)\nFinAlgoritmo",
+    "AlternativaA": "Si (ventas < 10000) Entonces",
+    "AlternativaB": "Si (ventas > 1000000) Entonces",
+    "AlternativaC": "Si (ventas < 1000000)",
+    "AlternativaD": "Si (ventas < 1000000) Entonces",
+    "Correcta": "D"
+  },
+  {
+    "Encabezado": "1. Complete el siguiente problema, ¿Qué condición debe ingresar para preguntar si el número de la nota es mayor o igual a cinco?:",
+    "Codigo": "Algoritmo promedio_nubes\n    Leer trabajo1, trabajo2, trabajo3, presentacion1, presentacion2, proyecto, prueba\n    promTrabajos <- (trabajo1+trabajo2+trabajo3)/3\n    promPresentaciones <- (presentacion1+presentacion2)/2\n    promProyPrueba=(proyecto+prueba)/2\n    Si (promProyPrueba >= 4) Entonces\n        nota <- prueba*0.4+proyecto*0.4+promTrabajos*0.1+promPresentaciones*0.1\n    SiNo\n        nota <- prueba*0.4+proyecto*0.4+promPresentaciones*0.2\n    Fin Si\n    Escribir \"Nota presentación = \" redon(nota)\n    Si (nota > 6) Entonces\n        Escribir \"Vuelo de observación!\"\n    Fin SI\n    __________\n        Escribir \"Aprobado\"\n    Fin SI\n    SI (nota >= 3) Entonces\n        Escribir \"Debe rendir examen\"\n    SiNo\n        Escribir \"Reprobado\"\n    Fin Si\nFinAlgoritmo",
+    "AlternativaA": "(nota >= 5) Entonces",
+    "AlternativaB": "Si (nota <= 5) Entonces",
+    "AlternativaC": "Si (nota >= 5) Entonces",
+    "AlternativaD": "Si (nota >= 5)",
+    "Correcta": "C"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el número sea menor o igual a doce?:",
+    "Codigo": "Algoritmo Contar_sumar_imprimir_1raDocena_numPositivos_creciente\n    x<-1\n    contador<-0\n    suma<-0\n    Imprimir \"Los números son:\"\n    Mientras ________ Hacer\n        Imprimir x\n        contador<-contador+1\n        suma<-suma+x\n        x<-x+2\n    FinMientras\n    Imprimir \"La cantidad de números es \", contador\n    Imprimir \"La suma de los números es \", suma\nFinAlgoritmo",
+    "AlternativaA": "(x>=12)",
+    "AlternativaB": "(x=12)",
+    "AlternativaC": "(x<=1)",
+    "AlternativaD": "(x<=12)",
+    "Correcta": "D"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el programa recorra desde el 1 hasta el total de alumnos?:",
+    "Codigo": "Algoritmo menor_nota\n    Leer totalAlumnos\n    menor <- 7\n    _________________________ Con Paso 1 Hacer\n        Leer nota\n        Si (nota<menor) Entonces\n            menor <- nota\n        Fin Si\n    Fin Para\n    Escribir \"Menor nota final: \", menor\nFinAlgoritmo",
+    "AlternativaA": "Para x>-1 Hasta totalAlumnos",
+    "AlternativaB": "Para totalAlumnos Hasta x<-1",
+    "AlternativaC": "Para x<-1 Hasta totalAlumnos",
+    "AlternativaD": "Para x<-1 Hasta total",
+    "Correcta": "C"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el programa se ejecute cuando la cantidad de personas sea mayor a cero?:",
+    "Codigo": "Algoritmo mayores_edad\n    Leer cantidadpersonas\n    cantidadmayores <- 0\n    cantidadtotal = cantidadpersonas\n    ______________________________\n        Leer edadpersona\n        Si (edadpersona>17) Entonces\n            cantidadmayores <- cantidadmayores+1\n        Fin Si\n        cantidadpersonas <- cantidadpersonas+1\n    Fin Mientras\n    Si (cantidadmayores = 0) Entonces\n        Escribir \"No hubo mayores de edad\"\n    Fin Si\n    Si (cantidadmayores = cantidadtotal) Entonces\n        Escribir \"Todos eran mayores de edad\"\n    SiNo\n        Escribir \"Cantidad de mayores de edad: \", cantidadmayores\n    Fin Si\nFinAlgoritmo",
+    "AlternativaA": "Mientras (cantidadpersonas<0) Hacer",
+    "AlternativaB": "Mientras (cantidadtotal>0) Hacer",
+    "AlternativaC": "Mientras (cantidadpersonas>0) Hacer",
+    "AlternativaD": "Mientras (cantidadpersonas>0)",
+    "Correcta": "C"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el programa se ejecute cuando el número sea distinto de cero?:",
+    "Codigo": "Algoritmo Escribir_numeros_no_multiplos\n    Leer numero\n    ________________________\n        Si (numero % 7 <> 0) y (numero % 3 <> 0) Entonces\n            Suma <- Suma + numero\n            Escribir numero , \" , \"\n        FinSi\n        numero <- numero - 1\n    Fin Mientras\nFinAlgoritmo",
+    "AlternativaA": "Mientras (numero <> 0) Hacer",
+    "AlternativaB": "(numero > 0) Hacer",
+    "AlternativaC": "(numero <> 0)",
+    "AlternativaD": "Mientras (numero <> 0)",
+    "Correcta": "A"
+  },
+  {
+    "Encabezado": "Complete el siguiente problema, ¿Qué condición debe ingresar para que el numero sea distinto a NumeroA?:",
+    "Codigo": "Algoritmo Suma_Divisibles_por_2_y_3\n    Leer NumeroA\n    Leer NumeroB\n    Suma <- 0\n    numero <- NumeroB\n    Mientras _____________ Hacer\n        Si (numero % 2 = 0) y (numero % 3 = 0) Entonces\n            Suma <- Suma + numero\n        FinSi\n        numero <- numero - 1\n    Fin Mientras\n    Escribir \"Suma = \" , Suma\nFinAlgoritmo",
+    "AlternativaA": "(NumeroB <> NumeroA)",
+    "AlternativaB": "(numero > NumeroA)",
+    "AlternativaC": "(NumeroA <> NumeroB)",
+    "AlternativaD": "(numero <> NumeroA)",
+    "Correcta": "D"
+  }
+]

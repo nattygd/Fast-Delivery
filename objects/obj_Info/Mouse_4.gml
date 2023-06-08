@@ -1,0 +1,1 @@
+show_message("> mayor que\n< menos que\n>= mayor o igual que\n<= menor o igual que\n<- igual\n<> distinto\n+ suma\n- resta\n* multiplicación\n/ división real\ndiv división entera\n^ potencia\nmod resto de la división");
